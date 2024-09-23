@@ -5,13 +5,15 @@ Sniping is being done with jito to increase the likelyhood of success.
 
 ## How to use it
 
+
 1. Copy ``.env.example`` and rename it to ``.env``
 2. paste the rpc and wss url in ``.env``
 3. Generate a keypair.json with solana cli
 4. Deposit some SOL in the new generated wallet
 5. Now set the MINT CA into mints.txt in ``addys/mints|snipe height|jito tip|slippage`` format or 
     ``account address|snipe height|jito tip|slippage`` in deployers.txt to snipe by deployer.
-6. Start the sniper with ``cargo run --release``
+6. Ensure that Rust and ``cargo`` are installed.
+7. Start the sniper with ``cargo run --release``
 
 ## Disclaimer
 

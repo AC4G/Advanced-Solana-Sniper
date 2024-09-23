@@ -15,7 +15,7 @@ Sniping is being done with jito to increase the likelyhood of success.
 
 ## Disclaimer
 
-I am not liable for any losses nor winses caused by this program.
+I am not liable for any losses nor wins caused by this program.
 Please use at your own risk. I am not responsible for any damages.
 
 ## PS

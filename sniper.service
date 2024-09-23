@@ -1,0 +1,20 @@
+[Unit]
+Description=Sniper service
+After=network.target
+
+[Service]
+User=sniper
+Group=sniper
+WorkingDirectory=/home/sniper/sniper
+Type=simple
+ExecStart=/home/sniper/sniper/target/release/sniper
+ExecStartPre=/bin/mkdir -p /home/sniper/sniper/log
+ExecStartPre=/bin/chown sniper:sniper /home/sniper/sniper/log
+EnvironmentFile=/etc/systemd/system/sniper.env
+Restart=on-failure
+RestartSec=5s
+StartLimitIntervalSec=0
+StartLimitBurst=0
+
+[Install]
+WantedBy=multi-user.target

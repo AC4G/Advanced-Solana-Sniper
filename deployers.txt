@@ -1,0 +1,3 @@
+# Account addresses which will deploy tokens to raydium (account address|snipe height|jito tip|slippage -> per line) to snipe
+# (snipe height, jito tip and slippage can be a number and a float)
+

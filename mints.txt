@@ -1,0 +1,3 @@
+# Token contract addresses (addys/mints|snipe height|jito tip|slippage -> per line) to snipe
+# (snipe height, jito tip and slippage can be a number and a float)
+

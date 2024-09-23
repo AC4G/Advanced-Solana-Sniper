@@ -1,7 +1,14 @@
 ## Advanced Solana Sniper by MINT CA and Deployer address
 
+
 This sniper is written in rust for speed and safety.
+The sniper also has a reduced amount of rpc calls to increase speed
+of sniping right after catching pool creation in ``confirmed`` commitment.
 Sniping is being done with jito to increase the likelyhood of success.
+
+It can snipe only raydium pools: 
+- OpenBook
+- CPMM
 
 ## How to use it
 
